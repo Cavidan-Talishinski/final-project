@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+
+        var exit = false;
+        while (exit == false) {
+            var number = Number(prompt());
+            if (isNaN(number) == true) {
+                alert("Please enter the correct number!")
+                continue;
+            }
+
+            if (number == 1) {
+                alert("salam");
+            } else if (number == 2) {
+                alert("sagol");
+            } else if (number == 3) {
+                alert("hasdkhas");
+            } else if (number == 0) {
+                exit = true;
+            } else {
+                alert("There is not any operation related with this number")
+            }
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
